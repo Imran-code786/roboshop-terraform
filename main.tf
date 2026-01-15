@@ -1,5 +1,5 @@
 module "test" {
-    source = "git::https://github.com/Imran-code786/tf-module-app.git.git"
-     env = "dev"
+  source = "git::https://github.com/Imran-code786/tf-module-app.git"
+  env = "dev"
 
 }
